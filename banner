@@ -1,0 +1,27 @@
+import time
+import colorama
+from colorama import Fore
+import random
+
+random_random = (random.choice([Fore.RED, Fore.GREEN, Fore.WHITE, Fore.BLUE]))
+
+banner_banner = ("""
+  _,-""`""-~`)
+(`~_,=========''
+ |---,___.-.__,''
+ |        o     | ___  _,,,,_     _.--.
+  |      `^`    /`_.-"~      `~-;`     |
+   |_      _  .'                 `,     |
+     |`-                           |'__/ 
+    /                      ,_       -  `'-. 
+   /    .-""~~--.            `"-,   ;_    /
+  |              |               -  | `""`
+   |__.--'`"-.   /_               |'
+              `"`  `~~~---..,     |
+ BearShell                  - _.-'`-.
+                              -       "
+                               '.     /
+                                 `"~"`
+                                 """)
+print(random_random + banner_banner)
+time.sleep(0.2)
